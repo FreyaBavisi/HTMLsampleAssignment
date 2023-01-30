@@ -1,0 +1,121 @@
+#bgimg{
+   height: 600px;
+   width: 600px;
+   box-shadow: 0px 4px 31px #0000000A;
+   border: 20px solid #FFFFFF;
+   opacity: 1;
+   border-radius: 50%;
+   background-position-x: 166px;
+   background-position-y: 72px;
+}
+
+#main{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   align-items: center;
+}
+#left{
+   width: 40%;
+}
+#right{
+   margin: 40px 40px 0px 30px;
+   padding: 0px;
+   width: 45%;
+}
+
+h1{
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   height: 58px;
+}
+#desc{
+   font: normal normal 300 40px/47px Roboto;
+   letter-spacing: 0px;
+}
+#login{
+   font: normal normal normal 25px/33px Roboto;
+   color: #3E3E3E;
+opacity: 1;
+}
+input{
+   width:429px;
+   height: 42px;
+   margin-bottom: 20px;
+   border-radius: 5px;
+   border: 1px solid #ADADAD;
+}
+button{
+   height: 45px;
+   width: 138px;
+   background-color: red;
+   color: white;
+   border: none;
+   border-radius: 23px;
+   margin-right: 180px;
+   /* font-weight: 500px; */
+   /* opacity: 1; */ 
+}
+#col-flex{
+   display: flex;
+   flex-direction: row;
+   
+}
+strong{
+   color: red;
+}
+#forgotpswd{
+   /* align-items: right; */ 
+   color: #ADADAD;  
+}
+span{
+   color: red;
+}
+#member{
+   color: #ADADAD;
+}
+#header-logo{
+   width: 272px;
+   height: 58px;
+}
+@media screen and (min-width:900px) and (max-width:1150px){
+   #left{
+      width: 30%;
+   }
+   #right{
+      width: 45%;
+   }
+   #bgimg{
+         height: 400px;
+         width: 400px;
+   }
+}
+@media screen and (min-width:360px) and (max-width:900px){
+   
+   #main{
+      flex-direction: column;
+      /* justify-content: center; */
+      display: inline-block;
+   text-align: center;
+
+   }
+   #bgimg{
+      height: 600px;
+      width: 600px;     
+   }
+   #left{
+      width: 100%;
+   }
+   #right{
+      width: 100%;
+      /* margin-left: 100px; */
+   }
+ 
+   button{
+      margin-left: 180px;
+      margin-right: 180px;
+   }
+
+   
+}
+
+   
