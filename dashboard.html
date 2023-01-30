@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <link type="text/css" rel="stylesheet" href="css\bootstrap.min.css">
+     <link type="text/css" rel="stylesheet" href="css\dashboardstyle.css"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&family=Ubuntu&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@900&family=Ubuntu&display=swap" rel="stylesheet">   
+    <title>Document</title>
+</head>
+<body>
+   
+    <div class="cont">
+        <img id="menu-logo" src="images\menu-bar.svg">
+        <img src="images\header-logo.svg">
+        <img class="nav-img search-icon"src="images\search-icon.svg">
+        <input  class="search" placeholder="Search">
+        <img class="nav-img" src="images\notification-icon.svg">
+        <img class="nav-img" src="images\profile.png">
+        <h6 class="name">John Doe</h6>
+        <img class="nav-img"src="images\downward-arrow.svg">
+    </div>
+  <div class="main">
+   <aside id="sidebar">
+        <ul>
+            <li class="active-box">
+            <img class="img-logo" src="images\dashboard-active.svg">
+                <p class="active-text">Dashboard</p>
+            <li>
+            <li class="box">
+                <img class="img-logo" src="images\graph-default.svg">
+                <p class="text">Analysis</p>
+            </li>
+            <li class="box">
+                <img class="img-logo" src="images\inbox-default.svg">
+                <p class="text">Inbox</p>
+            </li>
+            <li class="box">
+                <img class="img-logo" src="images\clock-default.svg">
+                <p class="text">History</p>
+            </li>
+
+            <li class="box">
+                <img class="img-logo" src="images\user-default.svg">
+                <p class="text">Users</p>
+            </li>
+            <li class="box">
+                <img class="img-logo" src="images\maintenance-default.svg">
+                <p class="text">Maintainence</p>
+            </li>
+            <li class="box">
+              <img class="img-logo" src="images\setting-default.svg">
+              <p class="text">Setting</p>
+          </li>
+        </ul>
+    </aside>
+    <div class="main-div">
+        <h3 class="dash-text">Dashboard</h3>
+        <div class="ratings">
+            <div class="rate-box">
+                <img src="images/star.svg" class="rate-logo">
+                <div class="rate-textbox">
+                  <h4>23,456</h4>
+                  <p>New Products</p>
+                </div>
+            </div>
+            <div class="rate-box">
+              <img src="images/new-product.svg" class="rate-logo">
+              <div class="rate-textbox">
+                <h4>2345</h4>
+                <p class="rate-desc">Added Products</p>
+              </div>
+          </div>
+          <div class="rate-box">
+            <img src="images/total-product.svg" class="rate-logo">
+            <div class="rate-textbox">
+              <h4>32,456</h4>
+              <p class="rate-desc">Total Products</p>
+            </div>
+        </div>
+        <div class="rate-box">
+          <img src="images/dollar-filled.svg" class="rate-logo">
+          <div class="rate-textbox">
+            <h4>5678</h4>
+            <p class="rate-desc">Today's Sale</p>
+          </div>
+      </div>
+      <div class="rate-box">
+        <img src="images/money-bag.svg" class="rate-logo">
+        <div class="rate-textbox">
+          <h4>33,5342</h4>
+          <p class="rate-desc">Total Sale</p>
+        </div>
+    </div>
+        </div>
+      <div class="graphs">
+          <div class="plotted-graph">
+              <div class="graph-text">
+                <h6>Sale</h6>
+                <p>Weely</p>
+                <p>Monthly</p>
+                <p class="highlighted-text">Yearly</p>
+              </div>
+              <img src="images/data-graph.png" class="data-graph-img">
+          </div>
+          <div class="pie-chart">
+            <h4>Sales by country</h4>
+            <img src="images/pie-chart.svg">
+            <div class="upper-row">
+              <div class="label">
+              <div class="clr-red pie-circle"></div>
+              <p class="pie-text">United States of America</p>
+            </div>
+            <div class="label">
+              <div class="clr-green pie-circle"></div>
+              <p class="pie-text">Canada</p>
+            </div>
+            </div>
+            <div class="lower-row">
+              <div class="label">
+              <div class="clr-orange pie-circle"></div>
+              <p class="pie-text">Russia</p>
+            </div>
+            <div class="label">
+              <div class="clr-yellow pie-circle"></div>
+              <p class="pie-text">India</p>
+            </div>
+            </div>
+          </div>
+      </div>
+      <table class="table">
+       <div class="table-head">
+        <span><strong>Invoices</strong></span>
+        <span class="viewAll">VIEW ALL</span>
+       </div>
+        <thead>
+         
+          <tr>
+            <td scope="col">INVOICE</td>
+            <td scope="col">COMPANY NAME</td>
+            <td scope="col">EMAIL</td>
+            <td scope="col">DUE DATE</td>
+            <td scope="col">STATUS</td>
+            <td scope="col">AMOUNT</td>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>65135</td>
+            <td>Public Adjusting Firm</td>
+            <td>georgia.young@example.com</td>
+            <td>24 May, 2020</td>
+            <td class="paid table-success">Paid</td>
+            <td>$47,800</td>
+
+          </tr>
+          <tr>
+            <td>558612</td>
+            <td>Other</td>
+            <td>jessica.hanson@example.com</td>
+            <td>24 May, 2020</td>
+            <td class="paid table-success">Paid</td>
+            <td>$98,000</td>
+
+          </tr>
+          <tr>
+            <td>558612</td>
+            <td>Vendor</td>
+            <td>alma.lawson@example.com</td>
+            <td>8 Sep, 2020</td>
+            <td class="paid table-success">Paid</td>
+            <td>$20,900</td>
+
+          </tr>
+          <tr>
+            <td>558612</td>
+            <td>Property Management Company</td>
+            <td>kenzi.lawson@example.com</td>
+            <td>22 Oct, 2020</td>
+            <td class="paid table-success">Paid</td>
+            <td>$10,570</td>
+
+          </tr>
+          <tr>
+            <td>65135</td>
+            <td>Subcontractor Company</td>
+            <td>jackson.graham@example.com</td>
+            <td>1 Feb, 2020</td>
+            <td class="table-danger failed">Failed</td>
+            <td>$10,200</td>
+
+          </tr>
+          <tr>
+            <td>653518</td>
+            <td>Mortgage Company</td>
+            <td>felicia.reid@example.com</td>
+            <td>22 Oct, 2020</td>
+            <td class="table-secondary pending">Pending</td>
+            <td>$12,600</td>
+
+          </tr>
+          <tr>
+            <td>487441</td>
+            <td>TPA</td>
+            <td>dolores.chambers@example.com</td>
+            <td>21 Sep, 2020</td>
+            <td class="paid table-success">Paid</td>
+            <td>$11,170</td>
+
+          </tr>
+          <tr>
+            <td>267400</td>
+            <td>Fire Department</td>
+            <td>nevaeh.simmons@example.com</td>
+            <td>17 Oct, 2020</td>
+            <td class="table-danger failed">Failed</td>
+            <td>$28,000</td>
+
+          </tr>
+          <tr>
+            <td>449003</td>
+            <td>Insurance Carrier</td>
+            <td>curtis.weaver@example.com</td>
+            <td>21 Sep, 2020</td>
+            <td class="paid table-success">Paid</td>
+            <td>$10,000</td>
+
+          </tr>
+        </tbody>
+      </table>
+        
+        
+    </div>
+  </div>
+  <script>
+    var s=document.getElementById("sidebar");
+    var x=document.getElementById("menu-logo");
+    x.addEventListener("click",()=> {
+         
+    })
+    document.getElementById("menu-logo").onclick = function() {
+      document.getElementById("sidebar").classList.toggle("display-none");
+    }
+    
+</script>
+  
+</body>
+</html>
